@@ -1,0 +1,17 @@
+{
+  "auth": {
+    "myamplifyapp7eb8c837": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "predictions": {
+    "translateText4974d34e": {
+      "providerPlugin": "awscloudformation",
+      "service": "Translate",
+      "convertType": "translateText"
+    }
+  }
+}
